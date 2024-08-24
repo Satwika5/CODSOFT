@@ -1,2 +1,2 @@
 # CODSOFT
-Level 1 task Completed
+Calculator using HTML, CSS and JavaScript
