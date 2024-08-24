@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #8dc2fef1;
+}
+
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 5px;
+    border-radius: 20px;
+}
+
+.container .output{
+    background-color: #f9d471;
+    border:0.1px solid #999999;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #9c8954;
+    grid-column: 1 / 5;
+    color: #0000ff;
+    display: flex;
+    justify-content:flex-end;
+    align-items: last baseline;
+    font-size: 35px;
+    padding: 5px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.container button{
+    background-color: #d7aaf786;
+    border-radius: 5px;
+    border: none;
+    font-weight: 10px;
+    font-size: 25px;
+    box-shadow: 0px 2px 0px #999999;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #d7aaf7cb;
+}
+
+.container button:active{
+    border: none;
+    border-radius: 5px;
+    background-color: #d7aaf786;
+}
+
+.container .operator{
+    color: orangered;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.container #clear-button{
+    background-color: #fe7979;
+}
+
+.container #clear-button:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: #fd6363;
+}
+.container #delete-button{
+    background-color: #fe7979;
+}
+
+.container #delete-button:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: #fd6363;
+}
+.container button:last-child{
+    background-color: #79fe79;
+    grid-column: span 2;
+}
+
+.container button:last-child:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: #63fd63;
+}
+
+
